@@ -1,5 +1,6 @@
 Dir["#{File.dirname(__FILE__)}/helpers/*.rb"].each {|r| require r }
 require 'base64'
+require 'builder'
 
 module S3
   module Helpers
